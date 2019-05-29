@@ -1,18 +1,15 @@
-Django==1.11.4
-django-extensions==1.8.1
+Django==1.11.20
+django-extensions==2.1.7
 
 # serve files
 whitenoise==3.3.0
 
 # Rest Framework
-djangorestframework==3.6.4
+djangorestframework==3.9.4
 djangorestframework-bulk==0.2.1
 
-# PostgresSQL
-psycopg2==2.7.3
-
 # MongoDB + Mongo Engine
-pymongo==2.7.1
+pymongo==2.8.1
 mongoengine==0.9
 django-rest-framework-mongoengine==3.3.0
 
