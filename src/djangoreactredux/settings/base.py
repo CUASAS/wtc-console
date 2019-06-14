@@ -127,3 +127,15 @@ SERVER_STATS_API_URL = 'https://cmsweb.cern.ch/wmstatsserver/data/filtered_reque
 
 # Workflows and tasks configuration
 SKIP_JOB_TYPES = ['LogCollect', 'Cleanup']
+
+################### Oauth2 ##################
+
+OAUTH2 = {
+    'AUTHORIZE_URL' : 'https://oauth.web.cern.ch/OAuth/Authorize',
+    'SCOPE' : 'read:user',
+    'RESPONSE_TYPE' : 'code',
+    'REDIRECT_URL' : 'https://localhost:8000/tasks/',
+    'CLIENT_ID' : 'wtc-console',
+    'CLIENT_SECRET' : 'SecretClientSecret',
+    'USER_ENDPOINT' : 'https://oauthresource.web.cern.ch/api/User'
+}
