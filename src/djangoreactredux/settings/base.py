@@ -9,7 +9,7 @@ SECRET_KEY = 'ajsdgas7&*kosdsa21[]jaksdhlka-;kmcv8l$#diepsm8&ah^'
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['localhost','wc-dev.cern.ch']
 
 # Application definition
 
@@ -134,8 +134,8 @@ OAUTH2 = {
     'AUTHORIZE_URL' : 'https://oauth.web.cern.ch/OAuth/Authorize',
     'SCOPE' : 'read:user',
     'RESPONSE_TYPE' : 'code',
-    'REDIRECT_URL' : 'https://localhost:8000/tasks/',
+    'REDIRECT_URL' : 'https://vocms0116.cern.ch/tasks/',
     'CLIENT_ID' : 'wtc-console',
-    'CLIENT_SECRET' : 'SecretClientSecret',
+    'CLIENT_SECRET' : 'GLlW3Y4OQEqL0lDD3gXPPP0r3ndKQfMG55s1XOBTUgE1',
     'USER_ENDPOINT' : 'https://oauthresource.web.cern.ch/api/User'
 }

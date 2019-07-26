@@ -67,5 +67,5 @@ WORKFLOWS_UPDATE_LIMIT = 50
 WORKFLOWS_UPDATE_TIMEOUT = 2 # in hours
 
 CA_PATH = '../cert/CERNRootCertificationAuthority2.crt'
-CERT_PATH = '../cert/crt.pem'
-CERT_KEY_PATH = '../cert/key.pem'
+CERT_PATH = '../cert/cert_tni.pem'
+CERT_KEY_PATH = '../cert/key_tni.pem'

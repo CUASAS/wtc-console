@@ -23,6 +23,8 @@ import PrepWorkflowsTreeTable from '../../components/PrepWorkflowsTreeTable';
 import Pager from '../../components/Pager';
 import SubmissionModal from '../../components/SubmissionModal';
 
+import { BrowserRouter, Route, Redirect } from 'react-router-dom';
+
 const DEFAULT_PAGE_SIZE = 10;
 const PATH = '/tasks';
 

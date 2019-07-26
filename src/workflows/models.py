@@ -24,6 +24,10 @@ class Action(Document):
     secondary = fields.StringField()
     splitting = fields.StringField()
     group = fields.StringField()
+    owner = fields.StringField(regex="[a-zA-Z0-9_-]+",
+                               default="Anonymous",
+                               max_length=30,
+                               min_length=4)
 
     sites = fields.ListField(fields.StringField())
     reasons = fields.ListField(fields.StringField())
